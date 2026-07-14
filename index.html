@@ -1,112 +1,216 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>Rahul's Veg Restaurant</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experience the best rooftop dining and a wonderful atmosphere at Flavor Haven! Here you will find fresh food and memorable moments. Book a table today."
+    />
+    <meta name="author" content="Rahul Kumawat" />
+    <title>Flavor Haven Restaurant</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <header id="home">
-      <h1>Rahul's Veg Restaurant</h1>
-      <p>Fresh | Healthy | Delicious</p>
+    <header class="header">
+      <nav class="nav">
+        <a href="#home" class="logo">Flavor Haven</a>
+        <div class="menu-toggle">
+  ☰
+</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#menu">Menu</a>
-      <a href="#contact">Contact</a>
-    </nav>
     <main>
-      <section id="about">
-        <h2>About</h2>
-        <ul>
-          <li>
-            Jaipur, xyz, plot no. xyz, <br />
-            pincode
-          </li>
-          <li>Veg Foods, Rajasthani Plate and etc.</li>
-        </ul>
-        <p>This restaurant serves delicious and healthy vegetarian food.</p>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Delicious Food, Happy Moments</h1>
+          <p>
+            Experience the best rooftop dining with freshly prepared dishes, a
+            warm atmosphere and unforgettable flavors.
+          </p>
+          <div class="hero-buttons">
+            <a href="#menu">Order Now</a>
+            <a href="#menu">View Menu</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/food.jpg" alt="Delicious Food" />
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="about-image">
+          <img src="images/restaurant.webp" alt="Restaurant Interior" />
+        </div>
+        <div class="about-content">
+          <h2>About Flavor Haven</h2>
+          <p>
+            Welcome to Flavor Haven, where every meal is crafted with love,
+            fresh ingredients, and authentic recipes.
+          </p>
+          <div class="features">
+            <div class="feature">
+              <h4>🍽 Fresh Ingredients</h4>
+              <p>Only high-quality fresh ingredients.</p>
+            </div>
+            <div class="feature">
+              <h4>👨‍🍳 Expert Chefs</h4>
+              <p>Prepared by experienced chefs.</p>
+            </div>
+            <div class="feature">
+              <h4>🚚 Fast Delivery</h4>
+              <p>Quick and reliable service.</p>
+            </div>
+            <div class="feature">
+              <h4>⭐ Cozy Atmosphere</h4>
+              <p>Enjoy a comfortable dining experience.</p>
+            </div>
+          </div>
+          <a href="#menu" class="about-btn">Explore Menu</a>
+        </div>
+      </section>
+      <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+          <div class="menu-card">
+            <img src="images/pizza.jpg" alt="Pizza" />
+            <h3>Cheese Pizza</h3>
+            <p>Fresh cheese with delicious toppings.</p>
+            <span>&#8377;299</span>
+            <a href="#contact">Order Now</a>
+          </div>
+          <div class="menu-card">
+            <img src="images/burger.jpg" alt="Burger" />
+            <h3>Veg Burger</h3>
+            <p>Crispy patty with fresh vegetables.</p>
+            <span>&#8377;149</span>
+            <a href="#contact">Order Now</a>
+          </div>
+          <div class="menu-card">
+            <img src="images/pasta.jpg" alt="Pasta" />
+            <h3>White Sauce Pasta</h3>
+            <p>Creamy pasta with Italian herbs.</p>
+            <span>&#8377;249</span>
+            <a href="#contact">Order Now</a>
+          </div>
+          <div class="menu-card">
+            <img src="images/dessert.jpg" alt="Dessert" />
+            <h3>Chocolate Cake</h3>
+            <p>Rich chocolate dessert.</p>
+            <span>&#8377;199</span>
+            <a href="#contact">Order Now</a>
+          </div>
+        </div>
+      </section>
+      <section id="reviews" class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review-container">
+          <div class="review-card">
+            <img src="images/customer.jpg" alt="Customer" />
+            <h3>Rahul Sharma</h3>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p>
+              Amazing food and excellent service. The rooftop atmosphere was
+              wonderful. Highly recommended!
+            </p>
+          </div>
+          <div class="review-card">
+            <img src="images/customer1.jpg" alt="Customer1" />
+            <h3>Priya Verma</h3>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p>
+              Fresh ingredients, quick delivery and very friendly staff. One of
+              my favorite restaurants.
+            </p>
+          </div>
+          <div class="review-card">
+            <img src="images/customer2.jpg" alt="Customer2" />
+            <h3>Amit Singh</h3>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p>
+              Delicious food with great presentation. Will definitely visit
+              again with my family.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
 
-        <img
-          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D"
-          alt="Restaurant Image"
-        /><br />
-</section>
-<section id="menu">
-        <h2>Menu</h2>
-        <p>Today's Special: <span>Paneer Butter Masala</span>.</p>
-        <h3>Starters</h3>
-        <ul>
-          <li>Paneer Tika</li>
-          <li>Veg Manchurian</li>
-          <li>Spring Roll</li>
-        </ul>
-        <h3>Main Course</h3>
-        <ul>
-          <li>Shahi Paneer</li>
-          <li>Dal Makhani</li>
-          <li>Butter Naan</li>
-          <li>Jeera Rice</li>
-        </ul>
-        <h3>Desserts</h3>
-        <ol>
-          <li>Gulab Jamun</li>
-          <li>Ice Cream</li>
-          <li>Rasmalai</li>
-        </ol>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
 
-        <h3>Price Table</h3>
-        <table>
-          <tr>
-            <th>Item</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td>Paneer Tika</td>
-            <td>&#8377;220</td>
-          </tr>
-          <tr>
-            <td>Shahi Paneer</td>
-            <td>&#8377;280</td>
-          </tr>
-          <tr>
-            <td>Butter Naan</td>
-            <td>&#8377;40</td>
-          </tr>
-        </table>
-</section>
-<section id="contact">
-        <h2>Contact</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="Enter Your Name"
-          /><br /><br />
-          <label for="number">Phone Number:</label>
-          <input
-            type="tel"
-            id="number"
-            maxlength="10"
-            placeholder="Enter Your Phone Number"
-          /><br /><br />
-          <label for="message">Message:</label>
-          <textarea
-            rows="5"
-            cols="35"
-            id="message"
-            placeholder="Enter Your Message..."
-          ></textarea
-          ><br /><br />
-          <button type="submit">Submit</button>
-        </form>
+            <p><strong>📍 Address</strong></p>
+            <p>123 Food Street, Jaipur, Rajasthan</p>
+
+            <p><strong>📞 Phone</strong></p>
+            <p>+91 98765 43210</p>
+
+            <p><strong>📧 Email</strong></p>
+            <p>info@flavorhaven.com</p>
+
+            <p><strong>🕒 Opening Hours</strong></p>
+            <p>Mon - Sun : 10:00 AM - 11:00 PM</p>
+          </div>
+
+          <form class="contact-form">
+            <input
+              type="text"
+              placeholder="Your Name"
+              maxlength="30"
+              required
+            />
+
+            <input type="email" placeholder="Your Email" required />
+
+            <textarea placeholder="Your Message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>&copy; 2026 Rahul's Veg Restaurant</p>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-box">
+          <h3>Flavor Haven</h3>
+          <p>
+            Experience delicious food, fresh ingredients, and unforgettable
+            dining moments with us.
+          </p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-box">
+          <h3>Contact</h3>
+
+          <p>📍 Jaipur, Rajasthan</p>
+          <p>📞 +91 98765 43210</p>
+          <p>📧 info@flavorhaven.com</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <p class="copyright">© 2026 Flavor Haven. All Rights Reserved.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
->
